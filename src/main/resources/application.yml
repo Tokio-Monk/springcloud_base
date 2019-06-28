@@ -2,3 +2,10 @@ server:
   port: 8099
   servlet:
     context-path: /springcloudbase
+
+spring:
+  application:
+    name: springcloud_base
+
+logging:
+  config: classpath:logback-spring.xml
